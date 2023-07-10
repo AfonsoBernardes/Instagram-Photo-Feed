@@ -19,27 +19,27 @@ body {
     height: auto;
     width: 100%;
     text-align: center;
-    padding: 0px;
     justify-content: center;
 }
 
-h1 {
+.headerDiv h1 {
     position: relative;
     margin: 0px;
+    padding: 10px;
     height: 100%;
     width: 100%;
     text-align: center;
 }
 
-p {
-    margin: 0px
-}
-
 .postDiv {
     margin: 40px auto 0px auto;
     position: relative;
-    height: auto;
     background-color: white;
+}
+
+.postDiv img {
+    width: 100%;
+    margin: 0;
 }
 
 .postHeader{
@@ -48,10 +48,21 @@ p {
     justify-content: space-between;
 }
 
-.postBody{
-    height: 80%;
+.postHeader h2 {
+    margin: 0px;
+    width: 80%;
+    height: 100%;
+    padding: 10px;
 }
 
-.postFooter{
-    height: 10%;
+.postHeader span {
+    padding-right: 10px;
+    width: 20%;
+    text-align: right;
+    color: gray;
+}
+
+.postFooter p {
+    padding: 10px;
+    margin: 0px;
 }
