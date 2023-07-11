@@ -16,23 +16,21 @@ body {
 .headerDiv {
     background-color: white;
     margin: 0 auto 0 auto;
-    height: auto;
     width: 100%;
     text-align: center;
     justify-content: center;
 }
 
 .headerDiv h1 {
-    position: relative;
     margin: 0px;
     padding: 10px;
     height: 100%;
     width: 100%;
-    text-align: center;
+    align-items: center;
 }
 
 .postDiv {
-    margin: 40px auto 0px auto;
+    margin: 50px auto 0px auto;
     position: relative;
     background-color: white;
 }
@@ -45,6 +43,7 @@ body {
 .postHeader{
     height: 10%;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
